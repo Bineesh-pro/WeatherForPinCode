@@ -1,2 +1,17 @@
 ###
-GET http://localhost:8080/weather-info?pincode=hello&for_date=17/10/2024
+GET http://localhost:8080/weather-info?pincode=629151&for_date=17/10/2024
+
+
+###
+GET https://api.openweathermap.org/data/2.5/weather?lat=11.940559889081802&lon=11.940559889081802&appid=bef1e54f79aaad3124c47495202adc2c
+
+###
+
+GET https://api.openweathermap.org/data/2.5/weather?q=600069&appid=bef1e54f79aaad3124c47495202adc2c
+
+###
+GET https://api.openweathermap.org/data/3.0/onecall/timemachine?lat=8.395&lon=77.2626&dt=1643803200&appid=bef1e54f79aaad3124c47495202adc2c
+
+###
+
+https://api.weatherapi.com/v1/current.json?key=2b2aa61514954bf7a15121815241910&q=48.8567,2.3508

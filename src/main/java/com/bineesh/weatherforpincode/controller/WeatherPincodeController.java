@@ -2,6 +2,7 @@ package com.bineesh.weatherforpincode.controller;
 
 
 import com.bineesh.weatherforpincode.dto.WeatherInfo;
+import com.bineesh.weatherforpincode.entity.WeatherDetails;
 import com.bineesh.weatherforpincode.service.WeatherInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
@@ -19,7 +20,7 @@ public class WeatherPincodeController {
 
 
     @GetMapping("weather-info")
-    public ResponseEntity<WeatherInfo> getWeatherInfo(
+    public ResponseEntity<WeatherDetails> getWeatherInfo(
             @RequestParam String pincode,
             @RequestParam @DateTimeFormat(pattern = "dd/MM/yyyy") Date for_date
    ){

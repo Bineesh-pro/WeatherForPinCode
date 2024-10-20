@@ -32,6 +32,7 @@ public class ApiService {
     }
 
     public WeatherInfo fetchWeatherByPin(String pin){
+        System.out.println("inside third party . .");
         RestTemplate restTemplate = new RestTemplate();
         Map<String,String> params = new HashMap<>();
         params.put("q",pin);

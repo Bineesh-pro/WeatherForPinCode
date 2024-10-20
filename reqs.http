@@ -1,5 +1,5 @@
 ###
-GET http://localhost:8080/weather-info?pincode=629156&for_date=17/10/2024
+GET http://localhost:8080/weather-info?pincode=62009156&for_date=17/10/2024
 Accept: application/json
 
 

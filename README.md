@@ -16,4 +16,4 @@ The setup details and the samples are given below.
 
 ### Unit testing
 * Junit is used for unit testing
-* Amd Mockito is used for mocking the objects
+* And Mockito is used for mocking the objects

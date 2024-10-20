@@ -22,7 +22,7 @@ public class WeatherPincodeController {
     @GetMapping("weather-info")
     public ResponseEntity<WeatherDetails> getWeatherInfo(
             @RequestParam String pincode,
-            @RequestParam @DateTimeFormat(pattern = "dd/MM/yyyy") Date for_date
+            @RequestParam(required = false) @DateTimeFormat(pattern = "dd/MM/yyyy") Date for_date
    ){
         return ResponseEntity.ok(weatherInfoService.getWeatherInfo(pincode,for_date));
     }

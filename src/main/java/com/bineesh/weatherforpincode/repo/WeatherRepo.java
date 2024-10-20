@@ -1,4 +1,4 @@
-package com.bineesh.weatherforpincode;
+package com.bineesh.weatherforpincode.repo;
 
 import com.bineesh.weatherforpincode.entity.WeatherDetails;
 import org.springframework.data.jpa.repository.JpaRepository;

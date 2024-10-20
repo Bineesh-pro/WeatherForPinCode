@@ -3,11 +3,9 @@ package com.bineesh.weatherforpincode.service;
 
 import com.bineesh.weatherforpincode.dto.WeatherInfo;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import java.nio.file.Watchable;
 import java.util.HashMap;
 import java.util.Map;
 

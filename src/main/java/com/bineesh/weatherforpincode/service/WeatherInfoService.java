@@ -1,6 +1,6 @@
 package com.bineesh.weatherforpincode.service;
 
-import com.bineesh.weatherforpincode.WeatherRepo;
+import com.bineesh.weatherforpincode.repo.WeatherRepo;
 import com.bineesh.weatherforpincode.dto.WeatherInfo;
 import com.bineesh.weatherforpincode.entity.WeatherDetails;
 import com.bineesh.weatherforpincode.utils.WeatherMapper;
